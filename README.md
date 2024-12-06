@@ -72,8 +72,7 @@ Though not implemented in this PoC, this feature could be integrated into a yoga
 - **pose_detection.py**: This script contains the code for detecting keypoints and classifying poses based on the detected landmarks.
 - **feedback.py**: This script provides the feedback mechanism, analyzing the detected pose and providing corrective instructions.
 - **app.py**: (Optional) This is the FastAPI or Flask application that could serve as the backend for the yoga pose detection system.
-
-## Example Usage
+  ## Example Usage
 
 To run the system, use the following command:
 
@@ -101,6 +100,19 @@ Conclusion
 
 This AI-powered yoga pose detection and correction tool demonstrates how AI can enhance the yoga experience by providing real-time feedback, improving posture accuracy, and preventing injuries. The system is user-friendly and scalable, with potential for integration into a full yoga app.
 Submission
+
+    Code Repository: All code is available in the GitHub repository YogaPoseCorrection.
+    Documentation: This README file contains the detailed explanation of the approach, model, results, and next steps.
+
+## Example Usage
+
+To run the system, use the following command:
+
+```bash
+python pose_detection.py --image_path path/to/image.jpg
+
+This will display the pose name along with feedback on how to improve the posture.
+Results
 
     Code Repository: All code is available in the GitHub repository YogaPoseCorrection.
     Documentation: This README file contains the detailed explanation of the approach, model, results, and next steps.
