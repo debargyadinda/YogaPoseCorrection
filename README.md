@@ -99,3 +99,10 @@ This AI-powered yoga pose detection and correction tool demonstrates how AI can 
 
 - **Code Repository**: All code is available in the GitHub repository [YogaPoseCorrection](https://github.com/debargyadinda/YogaPoseCorrection/).
 - **Documentation**: This README file contains the detailed explanation of the approach, model, results, and next steps.
+
+### Example Usage:
+
+To run the system, use the following command:
+
+```bash
+python pose_detection.py --image_path path/to/image.jpg
