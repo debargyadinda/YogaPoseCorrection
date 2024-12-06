@@ -79,3 +79,28 @@ To run the system, use the following command:
 
 ```bash
 python pose_detection.py --image_path path/to/image.jpg
+
+This will display the pose name along with feedback on how to improve the posture.
+Results
+Pose Detection and Feedback:
+
+The system can accurately detect and label poses like Tree Pose, Warrior 2, etc., providing immediate feedback on whether the user's alignment is correct. The feedback is dynamic and adjusts according to the keypoints detected.
+Performance Visualization:
+
+The pose detection model detects 33 key landmarks on the user's body and compares them with the standard pose for feedback generation. For example, if the user is performing the Tree Pose incorrectly, the feedback system will suggest alignment adjustments for better execution.
+Scalability:
+
+The system is designed to be scalable, able to handle multiple users practicing yoga simultaneously. As the dataset grows, additional poses can be added to the model, and the feedback system can be fine-tuned for better accuracy. Furthermore, the backend can be extended to handle more requests by implementing more robust infrastructure for concurrent usage.
+Next Steps
+
+    Improvement of Feedback Accuracy: More refined feedback can be provided by enhancing the pose detection model and adding more detailed correction suggestions.
+    Integration with Yoga App: Develop a mobile or web application where users can interact with the system directly through their devices.
+    Multi-Pose Detection: Extend the model to detect multiple poses simultaneously for group sessions.
+
+Conclusion
+
+This AI-powered yoga pose detection and correction tool demonstrates how AI can enhance the yoga experience by providing real-time feedback, improving posture accuracy, and preventing injuries. The system is user-friendly and scalable, with potential for integration into a full yoga app.
+Submission
+
+    Code Repository: All code is available in the GitHub repository [https://github.com/debargyadinda/YogaPoseCorrection/].
+    Documentation: This README file contains the detailed explanation of the approach, model, results, and next steps.
