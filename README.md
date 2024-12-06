@@ -73,12 +73,7 @@ Though not implemented in this PoC, this feature could be integrated into a yoga
 - **feedback.py**: This script provides the feedback mechanism, analyzing the detected pose and providing corrective instructions.
 - **app.py**: (Optional) This is the FastAPI or Flask application that could serve as the backend for the yoga pose detection system.
 
-### Example Usage:
 
-To run the system, use the following command:
-
-```bash
-python pose_detection.py --image_path path/to/image.jpg
 ## Results
 
 ### Pose Detection and Feedback:
